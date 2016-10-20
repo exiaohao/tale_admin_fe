@@ -1,0 +1,41 @@
+.LeftNaviContainer{
+    overflow: hidden;
+    width: 200px;
+    height: 100%;
+    background: #369;
+}
+
+.LeftNaviContainer .SearchQueryContainer{
+    margin: 10px 5px;
+}
+.LeftNaviContainer .SearchQueryContainer input.SearchQuery{
+    padding: 5px 0;
+    background: #369;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    color: #fff;
+    width: 190px;
+    font-size: 14px;
+}
+
+.LeftNaviContainer #NaviUl ul{
+    margin: 0;
+    padding: 0;
+}
+
+.LeftNaviContainer #NaviUl li{
+    list-style: none;
+}
+
+.LeftNaviContainer #NaviUl li a{
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    padding: 5px 5px 5px 10px;
+    margin: 1px 0 0 0;
+}
+
+.LeftNaviContainer #NaviUl li a:hover, a.current{
+    background: #6997c5;
+}
